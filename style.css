@@ -1,0 +1,153 @@
+/* Apply a universal box-sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Set default font and remove margins */
+body {
+  font-family: Courier;
+  margin: 0;
+}
+
+/* Set background color and text color */
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Style the page header */
+header {
+  background-color: #333;
+  color: #333;
+  padding: 20px;
+}
+
+/* Style the page header h1 */
+header h1 {
+  font-size: 36px;
+  text-align: center;
+  left: 20px;
+  font-family: Monospace;
+  margin: 0;
+}
+
+/* Style the main content area */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #c7c7c7;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Style the form inside main */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Style the form label and input */
+form label, form input {
+  margin-bottom: 10px;
+}
+
+/* Style the form input */
+form input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Style the form button */
+form button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #333;
+  color: #c7c7c7;
+  cursor: pointer;
+}
+
+/* Style the form button on hover */
+form button:hover {
+  background-color: #555;
+}
+
+/* Style the page footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: DarkSalmon;
+  color: white;
+}
+
+
+/* Style links */
+a {
+  color: #fff;
+}
+
+/* Style links on hover */
+a:hover {
+  color: #555;
+}
+
+/* Style for the generate button */
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Style for the stop button */
+#stop {
+  background-color: #f44336;
+}
+
+/* Style for the clear button */
+#clear {
+  background-color: #808080;
+}
+
+/* Style for the save button */
+#save {
+  background-color: #008CBA;
+}
+
+/* Style for the link to join Discord server */
+a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Style for the text inside the text area */
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  padding: 10px;
+  resize: none;
+}
+
+/* Media query for smaller devices */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  textarea {
+    font-size: 14px;
+  }
+}
