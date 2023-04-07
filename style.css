@@ -5,7 +5,7 @@
 
 /* Set default font and remove margins */
 body {
-  font-family: Courier;
+  font-family: Tahoma, Verdana, sans-serif;
   margin: 0;
 }
 
